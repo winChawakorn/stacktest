@@ -3,13 +3,12 @@ package ku.util;
 /**
  * A stack with LIFO access and a fixed capacity.
  * 
- * @author jim
- *
+ * @author Chawakorn Suphepre
+ * @version 2017.04.21
  * @param <T>
  *            the type of element the stack can hold
  */
 public interface Stack<T> {
-
 	/**
 	 * Remove the top element from stack and return it.
 	 * 
